@@ -1,0 +1,7 @@
+public class DecimalComparator {
+    public static boolean areEqualByThreeDecimalPlaces(double double1, double double2) {
+        int int1 = (int) (double1 * 1000.0);
+        int int2 = (int) (double2 * 1000.0);
+        return int1 == int2;
+    }
+}
